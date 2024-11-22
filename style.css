@@ -7,3 +7,85 @@
     font-family: "Roboto-Light";
     src: url('fonts/RobotoMono-Light.ttf');
 }
+
+:root {
+    --font-size-standart: 16px;
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo {
+    margin-top: 7px;
+}
+.logo-email {
+    background: #FFFFFF1F;
+    width: 150px;
+    height: 25px;
+    font-size: var(--font-size-standart);
+    color: white;
+    font-family: "Roboto-Light";
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+nav {
+    margin-left: 300px;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto-Light";
+    font-size: var(--font-size-standart);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.nav-button {
+    background-color: #FF7143;
+    color: #000000;
+    padding: 5px 30px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    border-radius: 6px;
+    font-size: var(--font-size-standart);
+}
+
+.navFull {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
